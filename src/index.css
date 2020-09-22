@@ -55,6 +55,16 @@ main {
   margin-bottom: 15px;
 }
 
+.btn {
+  background-color: #f3f3f3;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(204, 224, 112);
+}
+
 /* NOTES LIST */
 
 .notes {

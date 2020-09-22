@@ -50,7 +50,9 @@ export class NotesForm extends Component {
             onChange={(evt) => this.onChangeHandler(evt, "note")}
           ></textarea>
         </div>
-        <button onClick={this.createNote}>Create Note</button>
+        <button className="btn" onClick={this.createNote}>
+          Create Note
+        </button>
       </section>
     );
   }
